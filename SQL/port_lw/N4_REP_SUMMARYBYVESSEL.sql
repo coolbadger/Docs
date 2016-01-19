@@ -85,4 +85,4 @@ WHERE CV.CARRIER_MODE = 'VESSEL'
   ) a
 where a.atd is not null
   group by a.name, a.vv_id, a.IB_VYG, a.OB_VYG, IB_VYG, OB_VYG
-  order by atd desc
+  order by atd asc
